@@ -1,0 +1,37 @@
+# ================= Kokoro ONNX Model & Voice Weights (Large Binaries) =================
+# GitHub blocks files >100 MB (kokoro-v1.0.fp16.onnx is ~156 MB, fp32 is ~310 MB).
+# Keep these local and document the curl download commands in README.md instead.
+*.onnx
+*.bin
+
+# ================= Local Reader Bookmarks & Books =================
+# Personal reading history, file paths, and local PDF books/audiobooks
+reader_bookmarks.json
+.bookmarks_*.json
+*.pdf
+*.mp3
+*.wav
+
+# ================= Python Bytecode & Virtual Environments =================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# ================= macOS & Editor Metadata =================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.vscode/
+.idea/
+*.swp
+*.swo
